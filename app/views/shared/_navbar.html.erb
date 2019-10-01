@@ -1,12 +1,37 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+  <%= link_to "/", class: "navbar-brand" do %>
+    <%= image_tag "logo-vigne.png" %>
     <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  <div>
+    <ul class="navbar-nav navbar-center mr-auto">
+      <li class="nav-item">
+        <%= link_to "Les crus", crus_path, class: "nav-link", style:"padding-right: 1.5rem" %>
+      </li>
+
+
+      <li class="nav-item">
+        <%= link_to "Histoire", histoire_path, class: "nav-link", style:"padding-right: 1.5rem" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Terroir", terroir_path, class: "nav-link", style:"padding-right: 1.5rem"%>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Environnement", environnement_path, class: "nav-link", style:"padding-right: 1.5rem" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Innovation", new_user_session_path, class: "nav-link", style:"padding-right: 1.5rem" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Art", new_user_session_path, class: "nav-link", style:"padding-right: 1.5rem" %>
+      </li>
+
+    </ul>
+  </div>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
