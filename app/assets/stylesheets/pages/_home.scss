@@ -5,6 +5,14 @@
   background-position: 100% 72%;
 }
 
+.flex-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top:30%;
+}
+
 .flex-centered{
   display: flex;
   text-align: center;
