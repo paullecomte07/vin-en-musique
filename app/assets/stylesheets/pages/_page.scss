@@ -1,0 +1,35 @@
+
+
+.diapo-photo-supperieure{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.photo-supperieure{
+  background-image: url('https://www.grandibottiglie.com/img/cms/Abbaye%20Saint%20Vivant.jpg');
+  height:40vh;
+  background-position: center;
+  background-size: cover;
+}
+.content-vertical{
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width{
+  width: 100vh;
+}
+.content-horizontal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.padding-text{
+  padding: 3rem 10rem 3rem 3rem;
+}
+
+.vignette{
+  width: 50%;
+  height: 50%;
+}
