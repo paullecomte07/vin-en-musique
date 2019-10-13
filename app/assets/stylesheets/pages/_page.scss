@@ -42,12 +42,17 @@
   background-size: cover;
 }
 
-.content-for-double-image-right{
+.content-when-double-image-right{
   margin: 0rem 0rem 0rem 5rem;
   width:50vw;
 }
 
-.content-for-double-image-left{
+.content-when-double-image-left{
   margin: 0rem 5rem 0rem 0rem;
   width:50vw;
+}
+.big-picture-left{
+  height:100%;
+  background-size: cover;
+  width: 100vh;
 }
