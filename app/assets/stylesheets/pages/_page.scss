@@ -1,0 +1,53 @@
+
+
+.diapo-photo-supperieure{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.photo-supperieure{
+  height:40vh;
+  background-position: center;
+  background-size: cover;
+}
+.content-vertical{
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width{
+  width: 100vh;
+}
+.content-horizontal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.padding-text{
+  padding: 3rem 10rem 3rem 3rem;
+}
+
+.right-pictures-container{
+  width: 38vw;
+}
+
+.left-pictures-container{
+  width: 38vw;
+}
+
+.vignette{
+  height: 50%;
+  margin: 0rem 2rem 2rem;
+  background-size: cover;
+}
+
+.content-for-double-image-right{
+  margin: 0rem 0rem 0rem 5rem;
+  width:50vw;
+}
+
+.content-for-double-image-left{
+  margin: 0rem 5rem 0rem 0rem;
+  width:50vw;
+}
