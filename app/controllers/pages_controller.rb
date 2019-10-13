@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :crus, :environnement, :terroir, :histoire, :innovation, :art]
+  skip_before_action :authenticate_user!, only: [:home, :crus, :environnement, :terroir, :histoire, :art]
 
   def home
   end
@@ -14,9 +14,6 @@ class PagesController < ApplicationController
   end
 
   def histoire
-  end
-
-  def innovation
   end
 
   def art

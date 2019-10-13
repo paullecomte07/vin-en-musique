@@ -32,13 +32,22 @@
   width: 38vw;
 }
 
+.left-pictures-container{
+  width: 38vw;
+}
+
 .vignette{
   height: 50%;
   margin: 0rem 2rem 2rem;
   background-size: cover;
 }
 
-.content-for-double-image{
+.content-for-double-image-right{
   margin: 0rem 0rem 0rem 5rem;
+  width:50vw;
+}
+
+.content-for-double-image-left{
+  margin: 0rem 5rem 0rem 0rem;
   width:50vw;
 }

@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'home',to:'pages#home', as: :home
   get 'terroir',to:'pages#terroir', as: :terroir
   get 'environnement',to:'pages#environnement', as: :environnement
-  get 'innovation',to:'pages#innovation', as: :innovation
+  get 'histoire',to:'pages#histoire', as: :histoire
   get 'art',to:'pages#art', as: :art
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
