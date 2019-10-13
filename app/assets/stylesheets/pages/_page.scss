@@ -6,7 +6,6 @@
   height: 100vh;
 }
 .photo-supperieure{
-  background-image: url('https://www.grandibottiglie.com/img/cms/Abbaye%20Saint%20Vivant.jpg');
   height:40vh;
   background-position: center;
   background-size: cover;
@@ -36,6 +35,7 @@
 .vignette{
   height: 50%;
   margin: 0rem 2rem 2rem;
+  background-size: cover;
 }
 
 .content-for-double-image{
