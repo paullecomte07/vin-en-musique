@@ -26,6 +26,7 @@
 
 .padding-text{
   padding: 3rem 10rem 3rem 3rem;
+  text-align: justify;
 }
 
 .right-pictures-container{
@@ -43,13 +44,16 @@
 }
 
 .content-when-double-image-right{
-  margin: 0rem 0rem 0rem 5rem;
+  margin: 2rem 5rem 0rem 5rem;
   width:50vw;
+  text-align: justify;
+
 }
 
 .content-when-double-image-left{
   margin: 0rem 5rem 0rem 0rem;
   width:50vw;
+  text-align: justify;
 }
 .big-picture-left{
   height:100%;
