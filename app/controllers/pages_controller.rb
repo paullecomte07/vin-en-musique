@@ -1,22 +1,19 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :crus, :environnement, :terroir, :histoire, :art]
+  skip_before_action :authenticate_user!, only: [:home, :vin, :engagement, :terroir, :histoire, :art]
 
   def home
   end
 
-  def crus
+  def vin
   end
 
-  def environnement
+  def engagement
   end
 
   def terroir
   end
 
   def histoire
-  end
-
-  def art
   end
 
 end

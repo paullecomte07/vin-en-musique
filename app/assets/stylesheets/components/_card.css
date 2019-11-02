@@ -6,7 +6,7 @@
   width: 67px;
   height: 5px;
   background-color: black;
-  margin: 40px 45vw;
+  margin: 40px auto;
 }
 .cards {
   display: grid;
@@ -31,6 +31,7 @@
 
 .text-card{
   height: 180px;
+  text-align: justify;
 
 }
 

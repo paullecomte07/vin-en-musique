@@ -1,0 +1,21 @@
+.btn-ghost {
+  color: white;
+  border: 3px solid white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  transition: opacity 0.3s ease;
+  font-size: 2rem;
+  width: fit-content;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  color:lightgrey;
+  border: 3px solid lightgrey;
+}
+
+.btn-buy{
+  background-color:#7ca510;
+  margin-top: 8%;
+
+}
