@@ -3,7 +3,7 @@
 .diapo-photo-supperieure{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+
 }
 .photo-supperieure{
   height:40vh;
@@ -38,7 +38,7 @@
 }
 
 .vignette{
-  height: 50%;
+  height: 40vh;
   margin: 0rem 2rem 2rem;
   background-size: cover;
 }
