@@ -37,6 +37,11 @@
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
+  .reducer-size{
+    height: 50px;
+    margin-bottom: 9px;
+
+  }
   .cards {
     grid-template-columns: 1fr;
   }
