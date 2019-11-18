@@ -6,7 +6,7 @@
 }
 
 .vignette-engagement{
-  background-color:#7ca510ad;
+  background-color:#7ca512e0;
   width:100%;
  //background-color: #FFFFFF;
  border-radius: 10px;
@@ -20,10 +20,84 @@
 }
 
 .description{
-  text-align: justify;
-  padding: 70px;
 }
 
 #marge {
 margin-left: 2em;
+}
+
+h6{
+  font-size: 0.7rem;
+}
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  h2{
+    font-size:1.5rem;
+  }
+
+  h4{
+    font-size: 1.35rem;
+  }
+  .content-wrap {
+    width: 95%;
+  }
+
+  .description{
+  text-align: left;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  h2{
+    font-size:1.5rem;
+  }
+
+  h4{
+    font-size: 1.35rem;
+  }
+
+  .content-wrap {
+    width: 95%;
+  }
+    .description{
+  text-align: left;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .content-wrap {
+    width: 59%;
+  }
+
+  .description{
+  text-align: justify;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .content-wrap {
+    width: 59%;
+  }
+
+  .description{
+  text-align: justify;
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .description{
+  text-align: justify;
+  }
 }
