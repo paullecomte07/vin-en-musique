@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 gem 'bootsnap', require: false
+
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
@@ -21,6 +22,8 @@ group :development do
 end
 
 group :development, :test do
+  gem 'cloudinary', '~> 1.9.1'
+  gem 'dotenv-rails'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
