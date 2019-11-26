@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'donneepersonnelles',to:'pages#donneepersonnelles', as: :donneepersonnelles
   get 'mentionslegales',to:'pages#mentionslegales', as: :mentionslegales
   get 'nous', to: 'pages#nous', as: :nous
-
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
