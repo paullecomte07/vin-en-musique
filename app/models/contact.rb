@@ -1,16 +1,14 @@
-class Contact < MailForm::Base
-  attribute :name,      :validate => true
-  attribute :email,     :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
-  attribute :message
-  attribute :nickname,  :captcha  => true
-
-  # Declare the e-mail headers. It accepts anything the mail method
-  # in ActionMailer accepts.
-  def headers
-    {
-      :subject => "My Contact Form",
-      :to => "paullecomte07@gmail.com",
-      :from => %("#{name}" <#{email}>)
-    }
+class Contact
+include ActiveModel::Model
+  attr_accessor :name, :email, :phone_number, :body
+  validates :name, :email, :phone_number, :body, presence: true
+  def contact(message)
+    @body = message.body
+    mg_client = Mailgun::Client.new ENV['mailgun_secret_api_key']
+    message_params = {:from => message.email,
+                      :to => ENV['email'],
+                      :subject => 'Contact Form',
+                      :text => message.body}
+    mg_client.send_message ENV['mailgun_domain'], message_params
   end
 end

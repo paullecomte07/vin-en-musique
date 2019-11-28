@@ -36,4 +36,6 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+  gem 'mailgun-ruby', '~>1.1.6'
+  gem "figaro"
 end

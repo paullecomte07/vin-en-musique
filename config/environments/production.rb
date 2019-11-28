@@ -90,6 +90,13 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  config.action_mailer.delivery_method = :mailgun
+  config.action_mailer.mailgun_settings = {
+   api_key: 'ENV["mailgun_secret_api_key"]',
+   domain: 'vinquifaitsens.com',
+  }
+
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
