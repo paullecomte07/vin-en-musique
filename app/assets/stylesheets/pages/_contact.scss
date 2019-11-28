@@ -1,3 +1,7 @@
+
+.contact{
+
+}
 .alert-error {
 background-color: #f2dede;
 border-color: #eed3d7;
@@ -27,3 +31,10 @@ text-align: left;
 }
 
 .hidden { display: none; }
+
+@media (min-width: 100px) and (max-width: 400px) {
+
+  .contact{font-size: small;}
+
+
+}

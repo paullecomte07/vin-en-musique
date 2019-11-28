@@ -1,16 +1,8 @@
-<div align="center">
-  <h3>Send A message to Us</h3>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-    </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
-    </div>
-  <% end %>
+<div class="background-image flex-centered" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dbqpc6nk9/image/upload/v1574263665/h9gr6wyoq9fop23fu8w6.jpg);    background-size: cover;">
+  <div class="inner-content pl-2 pr-2" style="    margin: auto;">
+<div style="background-image: url(../../../app/assets/images/Logo-JPH-sans-fond.png)"> </div>
+
+    <h3 class = "contact" style ="color: white;">Nous sommes joignables par mail à l'adresse : levinquifaitsens@gmail.com</h3>
+  </div>
 </div>
